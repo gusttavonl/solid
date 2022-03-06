@@ -9,7 +9,7 @@ class Eagle extends Bird {
     return `Diving through the ocean at ${speed}`;
   }
 
-  fly(speed): string {
+  fly(speed: number): string {
     return `Soaring through the sky at ${speed}`;
   }
 }
